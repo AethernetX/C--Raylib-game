@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Csharp\\game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\dev\\Csharp\\game\\Entity.cs",
+              "RelativeDocumentMoniker": "Entity.cs",
+              "ToolTip": "C:\\dev\\Csharp\\game\\Entity.cs",
+              "RelativeToolTip": "Entity.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:26:00.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\Csharp\\game\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\dev\\Csharp\\game\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:38:32.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "un0cWD9wBb4=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\Csharp\\game\\game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mthan\\.nuget\\packages\\raylib-cs\\6.0.0\\raylib-cs.6.0.0.nupkg.sha512",
+    "C:\\Users\\mthan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
