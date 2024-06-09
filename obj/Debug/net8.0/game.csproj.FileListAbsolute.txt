@@ -20,3 +20,4 @@ C:\dev\Csharp\game\obj\Debug\net8.0\refint\game.dll
 C:\dev\Csharp\game\obj\Debug\net8.0\game.pdb
 C:\dev\Csharp\game\obj\Debug\net8.0\game.genruntimeconfig.cache
 C:\dev\Csharp\game\obj\Debug\net8.0\ref\game.dll
+C:\dev\Csharp\game\obj\Debug\net8.0\game.sourcelink.json

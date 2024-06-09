@@ -12,7 +12,7 @@ class Program
 
         Raylib.InitWindow(1280, 720, "Game");
 
-        Entity x = new Entity(100, 100, 100, 100);
+        Player x = new Player(100, 100);
 
         while (!Raylib.WindowShouldClose())
         {
