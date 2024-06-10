@@ -10,7 +10,7 @@ namespace game
         public Vector2 pos;
         public Vector2 Vel;
         public Vector2 Accel;
-        int Mass = 10;
+        public int Mass = 10;
 
         public Entity(int width, int height, int posX, int posY)
         {

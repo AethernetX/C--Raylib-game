@@ -12,5 +12,15 @@ namespace game
             e.pos.Y += e.Vel.Y;
         }
 
+        public static void force(Entity e, Vector2 dir)
+        {
+            dir /= (float)e.Mass;
+            e.Accel += dir * Raylib.GetFrameTime();
+            e.Vel += e.Accel * Raylib.GetFrameTime();
+            e.pos += e.Vel;
+        }
+
+
+
     }
 }
