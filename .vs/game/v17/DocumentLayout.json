@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\game.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:game.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,24 +35,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "game",
-              "DocumentMoniker": "C:\\dev\\Csharp\\game\\game.csproj",
-              "RelativeDocumentMoniker": "game.csproj",
-              "ToolTip": "C:\\dev\\Csharp\\game\\game.csproj",
-              "RelativeToolTip": "game.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T11:25:43.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Physics.cs",
               "DocumentMoniker": "C:\\dev\\Csharp\\game\\Physics.cs",
               "RelativeDocumentMoniker": "Physics.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Physics.cs",
               "RelativeToolTip": "Physics.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBAAAAAaAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T12:30:19.524Z",
               "EditorCaption": ""
@@ -69,7 +53,7 @@
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T12:03:10.831Z",
               "EditorCaption": ""
@@ -82,20 +66,20 @@
               "RelativeDocumentMoniker": "Entity.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Entity.cs",
               "RelativeToolTip": "Entity.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAMwBoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:26:00.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\Csharp\\game\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBYAAAAMAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T08:38:32.159Z",
               "EditorCaption": ""
