@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:physics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|c:\\dev\\csharp\\game\\game.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F3FCEC83-663E-4FFA-8AB0-6203F6B4E9E9}|game.csproj|solutionrelative:game.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "Physics.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Physics.cs",
               "RelativeToolTip": "Physics.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAAyAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAhwDEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T12:30:19.524Z",
               "EditorCaption": ""
@@ -53,36 +57,46 @@
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAcAAAAZAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDwAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T12:03:10.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\dev\\Csharp\\game\\Entity.cs",
               "RelativeDocumentMoniker": "Entity.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Entity.cs",
               "RelativeToolTip": "Entity.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAMwBoAAAAsAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:26:00.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\Csharp\\game\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\dev\\Csharp\\game\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBIAAAAKAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAApwB4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:38:32.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T08:38:32.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "game",
+              "DocumentMoniker": "C:\\dev\\Csharp\\game\\game.csproj",
+              "RelativeDocumentMoniker": "game.csproj",
+              "ToolTip": "C:\\dev\\Csharp\\game\\game.csproj",
+              "RelativeToolTip": "game.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-11T20:07:15.454Z"
             }
           ]
         }

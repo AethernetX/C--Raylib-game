@@ -7,6 +7,7 @@ namespace game
     public class Entity
     {
         public Transform2D transform;
+        public Vector2 prevPosition = Vector2.Zero;
 
         public Vector2 Vel;
         public Vector2 Accel;
@@ -16,6 +17,7 @@ namespace game
         {
             transform.Scale = new Vector2(width, height);
             transform.Pos = new Vector2(posX, posY);
+            prevPosition = transform.Pos;
         }
 
         public virtual void Draw()

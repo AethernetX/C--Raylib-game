@@ -5,7 +5,8 @@ namespace game
 {
     class Player : Entity
     {
-        float move = 1000f;
+        float move = 196f;
+        Vector2 gravity = new(0, 98);
         Vector2 dir = new();
 
         public Player(int posX, int posY) : base(32, 100, posX, posY) { 
@@ -34,7 +35,7 @@ namespace game
 
             if (Raylib.IsKeyDown(KeyboardKey.W))
             {
-                dir.Y = -move;
+                dir.Y = -move * 2;
             }
 
             if (Raylib.IsKeyDown(KeyboardKey.S))
@@ -44,42 +45,49 @@ namespace game
 
             //dir.Y = 19.6f;
 
-            Raylib.DrawText("velocity: " + base.Vel.X.ToString() + " , " + base.Vel.X.ToString(), 100, 100, 20, Color.White);
-            Raylib.DrawText("Acceleration: " + base.Accel.X.ToString() + " , " + base.Accel.X.ToString(), 100, 130, 20, Color.White);
-            Raylib.DrawText("force: " + dir.X.ToString() + " , " + dir.X.ToString(), 100, 160, 20, Color.White);
+            Console.WriteLine("velocity: " + base.Vel.X.ToString() + " , " + base.Vel.X.ToString());
+            //Console.WriteLine("Acceleration: " + base.Accel.X.ToString() + " , " + base.Accel.X.ToString());
+            //Console.WriteLine("force: " + dir.X.ToString() + " , " + dir.X.ToString());
 
 
-            if (transform.Pos.Y > Raylib.GetScreenHeight() - transform.Scale.Y)
+            //Raylib.DrawText("velocity: " + base.Vel.X.ToString() + " , " + base.Vel.X.ToString(), 100, 100, 20, Color.White);
+            //Raylib.DrawText("Acceleration: " + base.Accel.X.ToString() + " , " + base.Accel.X.ToString(), 100, 130, 20, Color.White);
+            //Raylib.DrawText("force: " + dir.X.ToString() + " , " + dir.X.ToString(), 100, 160, 20, Color.White);
+
+
+            if (base.transform.Pos.Y > Raylib.GetScreenHeight() - base.transform.Scale.Y)
             {
                 base.Vel.Y = 0;
-                base.Accel.Y = 0;
-                base.transform.Pos.Y = Raylib.GetScreenHeight() - base.transform.Scale.Y;
+                base.transform.Pos.Y = Raylib.GetScreenHeight() - base.transform.Scale.Y + 0.0001f;
+
+                Raylib.DrawText("friction!!", 100, 160, 20, Color.Red);
+                Physics.Friction(this, 40, gravity);
+
             }
 
-            if (transform.Pos.X > Raylib.GetScreenWidth() - transform.Scale.X)
+            if (base.transform.Pos.X > Raylib.GetScreenWidth() - base.transform.Scale.X)
             {
                 base.Vel.X = 0;
-                base.Accel.X = 0;
                 base.transform.Pos.X = Raylib.GetScreenWidth() - base.transform.Scale.X;
+
             }
 
-            if (transform.Pos.Y < 0)
+            if (base.transform.Pos.Y < 0)
             {
                 base.Vel.Y = 0;
-                base.Accel.Y = 0;
                 base.transform.Pos.Y = 0;
             }
 
-            if (transform.Pos.X < 0)
+            if (base.transform.Pos.X < 0)
             {
                 base.Vel.X = 0;
-                base.Accel.X = 0;
                 base.transform.Pos.X = 0;
             }
 
-            Physics.Force(this, Vector2.UnitY * 980f);
+            Physics.Accelerate(this, gravity);
+
             Physics.Force(this, dir);
-            Physics.VelVerlet(this);
+            Physics.VerletUpdatePos(this, Raylib.GetFrameTime());
 
             dir = Vector2.Zero;
 
