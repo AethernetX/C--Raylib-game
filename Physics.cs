@@ -5,6 +5,8 @@ namespace game
 {
     public static class Physics
     {
+        public static Vector2 gravity = new(0, 196);
+
         //public static void gravity(Entity e, float gravity)
         //{
         //    e.Accel.Y += gravity * Raylib.GetFrameTime();
@@ -17,24 +19,26 @@ namespace game
         public static void Force(Entity e, Vector2 dir)
         {
             //dir /= (float)e.Mass;
-            Accelerate(e, dir);
+            Accelerate(e, dir / e.Mass);
             
         }
 
         public static void VerletUpdatePos(Entity e, float dt)
         {
-            //pos += vel * dt + 0.5 * acc * dt * dt;
-            //vel += acc * dt;
+            //Xn+1 = Xn + (Xn - Xn-1) + a * dt^2
 
-            e.Vel = e.transform.Pos - e.prevPosition;
+            // get the implied velocity
+            e.Vel = e.transform.Pos - e.transform.prevPos;
 
-            //set current pos as prev
-            e.prevPosition = e.transform.Pos;
+            // save the old position
+            e.transform.prevPos = e.transform.Pos;
+
+            //set acceleration?
+            // --
 
             e.transform.Pos += e.Vel + e.Accel * dt * dt;
 
-            //reset acceleration
-            e.Accel = Vector2.Zero;
+
 
             Raylib.DrawText("velocity: " + e.Vel.ToString(), 100, 100, 20, Color.White);
 
@@ -60,7 +64,7 @@ namespace game
             //this will be multiplied by the angle of the surface
             float normal = gravity.Y;
 
-            friction *= -1.0f;
+            friction = -friction;
 
             friction *= coeff * normal;
 
